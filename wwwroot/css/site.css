@@ -5,11 +5,13 @@ a.navbar-brand {
   white-space: normal;
   text-align: center;
   word-break: break-all;
+  background-color: aquamarine;
 }
 
 /* Provide sufficient contrast against white background */
 a {
-  color: #0366d6;
+    color: #0366d6;
+    background-color: aquamarine;
 }
 
 .btn-primary {
@@ -21,7 +23,7 @@ a {
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
   color: #fff;
   background-color: #1b6ec2;
-  border-color: #1861ac;
+  border-color: #1b6ec2;
 }
 
 /* Sticky footer styles
@@ -61,6 +63,7 @@ html {
 body {
   /* Margin bottom by footer height */
   margin-bottom: 60px;
+  background-color: aqua ;
 }
 .footer {
   position: absolute;
